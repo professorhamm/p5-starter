@@ -11,7 +11,7 @@ body.red {
 }
 
 body.red header {
-    background: red;
+    background: pink;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 body header {
-    background: blue;
+    background: lightblue;
 }
 
 body {
