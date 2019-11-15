@@ -3,8 +3,13 @@ body.yellow {
     background: yellow;
 }
 
-body {
+body.red {
     font-family: sans-serif;
+    background: red;
+}
+
+body {
+    font-family: serif;
     background: blue;
 }
 

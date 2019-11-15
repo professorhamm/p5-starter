@@ -1,8 +1,6 @@
 var colors = [
-    "green",
+    "blue",
     "yellow",
-    "purple",
-    "orange",
     "red"
     ];
 
