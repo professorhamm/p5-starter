@@ -1,0 +1,52 @@
+body.yellow {
+    font-family: monospace;
+    background: yellow;
+}
+
+body {
+    font-family: sans-serif;
+    background: blue;
+}
+
+aside {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 2em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin-right: 1em;
+    color: white;
+    text-decoration-thickness: 3px;
+    text-underline-position: below;
+    text-decoration-skip: none; 
+    margin-bottom: 1em;
+}
+
+h3 {
+    padding: 10em 0;
+}
+
+@media screen and (min-width:640px) {
+    
+    aside {
+        width: 20%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    main {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+}
